@@ -29,7 +29,7 @@ body{
 }
 
 .vertical-nav{
-    background: rgb(241, 241, 241);
+    background: rgb(248, 248, 248);
     position: fixed;
     top: 0;
     left: 0;
@@ -194,101 +194,9 @@ hr{
     margin-bottom: 70px;
 }
 
-#projects .card-content{
-    opacity: 0;
-    transition: 0.4s all;
-}
-
-#projects .overlay{
-    background: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: 0.4s all;
-}
-
-#projects .card:hover .card-content{
-    opacity: 1;
-}
-
-#projects .card:hover .overlay{
-    background: rgba(0,0,0,0.85);
-}
-
-
-#projects #fs-project-card{
-    background: url(/img/fs.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    cursor: pointer;
-    position: relative;
-    margin-top: 75px;
-    background-position-y: 0;
-    transition: 3s all linear;
-}
-
-#projects #fs-project-card:hover{
-    background-position-y: 100%;
-}
-
-#projects #recipe-book{
-    background: url(/img/rb.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    cursor: pointer;
-    position: relative;
-    margin-top: 10px;
-    background-position-y: 0;
-    transition: 7s all linear;
-}
-
-#projects #recipe-book:hover{
-    background-position-y: 100%;
-}
-
-#projects #contact-book{
-    background: url(/img/ck.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 0;
-    height: 500px;
-    cursor: pointer;
-    position: relative;
-    margin-top: 150px;
-    transition: 5s all linear;
-}
-
-#projects #contact-book:hover{
-    background-position-y: 100%;
-}
-
-#projects #social-app{
-    background: url(/img/sa.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -20px;
-    background-position-x: 10px;
-    height: 500px;
-    cursor: pointer;
-    position: relative;
-    margin-top: 5px;
-    transition: 5s all linear;
-}
-
-#projects #social-app:hover{
-    background-position-y: 100%;
-}
-
-
-.card-columns {
-    -webkit-column-count:2;
-    -moz-column-count:2;
-    column-count:2;
-    width: 95%;
+p.lead{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
 }
 
 #skills .card{
@@ -554,22 +462,6 @@ hr{
         font-size: 16px;
     }
 
-    .card-columns {
-        -webkit-column-count:1;
-        -moz-column-count:1;
-        column-count:1;
-        padding: 0 !important;
-    }
-
-    .card-columns .card{
-        width: 100%;
-        margin-bottom: 30px !important;
-    }
-
-    .card-columns .card:nth-child(3){
-        margin-top: 0 !important;
-    }
-
     #contact .card{
         padding: 30px 15px;
     }
@@ -613,11 +505,6 @@ hr{
 
     .card{
         width: 95% ;
-    }
-
-    .card-columns .card{
-        width: 100%;
-        margin-bottom: 30px !important;
     }
 
     .card-header h2{
