@@ -194,9 +194,9 @@ hr{
     margin-bottom: 70px;
 }
 
-p.lead{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
+.card-text{
+    font-size: 17px;
+    line-height: 1.55;
 }
 
 #skills .card{

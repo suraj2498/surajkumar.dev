@@ -13,7 +13,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css?refreshcss=1">
     <script src="https://kit.fontawesome.com/24691c37e8.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 </head>
@@ -405,145 +405,79 @@
         <div id="projects" class="container section-container">
             <div class="row text-center mt-5">
                 <div class="col-lg-4">
-                    <div class="card shadow">
+                    <div class="card shadow h-100">
                         <img src="./img/ck.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column justify-content-around">
                           <h5 class="card-title display-4 text-primary text-left mt-3">Contact Keeper</h5>
-                          <p class="card-text lead text-left mt-3 mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Check it out!</a>
-                          <a href="#" class="btn btn-success">Source Code</a>
+                          <p class="card-text text-left mt-3 mb-4">Full stack MERN app that utilizes React on the front end in conjunction with the context API for state management. On the back end node,js is used along with a variety of other tools like Express for routing and bcryptjs for password encryption and MongoDB.</p>
+                          <div>
+                            <a href="https://desolate-ravine-75134.herokuapp.com/" target="_blank" class="btn btn-primary ">Check it out!</a>
+                            <a href="https://github.com/suraj2498/contact-keeper" target="_blank" class="btn btn-success ">Source Code</a>
+                          </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card shadow">
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                    <div class="card shadow h-100">
                         <img src="./img/rb.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column justify-content-around">
                           <h5 class="card-title display-4 text-primary text-left mt-3">Recipe Book App</h5>
-                          <p class="card-text lead text-left mt-3 mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Check it out!</a>
-                          <a href="#" class="btn btn-success">Source Code</a>
+                          <p class="card-text text-left mt-3 mb-4">Full stack MERN app inspired by my family who can never find their recipes. Users can create and save recipes making it visible to everyone to browse. Search features are enabled to quickly navigate all present recipes. Users can read, edit and create recipes.</p>
+                          <div>
+                            <a href="https://serene-chamber-16057.herokuapp.com/" target="_blank" class="btn btn-primary ">Check it out!</a>
+                            <a href="https://github.com/suraj2498/Recipe-Book" target="_blank" class="btn btn-success ">Source Code</a>
+                          </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card shadow">
-                        <img src="./img/ps.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title display-4 text-primary text-left mt-3">Pluckd Studio</h5>
-                          <p class="card-text lead text-left mt-3 mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Check it out!</a>
-                          <a href="#" class="btn btn-success">Source Code</a>
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                    <div class="card shadow h-100">
+                        <img src="./img/ct.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body d-flex flex-column justify-content-around">
+                          <h5 class="card-title display-4 text-primary text-left mt-3">Covid-19 Tracker</h5>
+                          <p class="card-text lead text-left mt-3 mb-4">React web app that tracks the current amount of cases, deaths and recovered individuals Covid-19. Using React, ChartJS, and Disease.sh API I can utilize data for Covid cases across the US both from the start of the pandemic and the current numbers for today for all US states and territories.</p>
+                          <div>
+                            <a href="https://surajk-covid-tracker.netlify.app" target="_blank" class="btn btn-primary mt-lg-4">Check it out!</a>
+                            <a href="https://github.com/suraj2498/Covid-Tracker" target="_blank" class="btn btn-success mt-lg-4">Source Code</a>
+                          </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row text-center mt-5">
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                    <div class="card shadow">
+                        <img src="./img/ps.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title display-4 text-primary text-left mt-1">Pluckd Studio</h5>
+                          <p class="card-text text-left mt-3 mb-4">Pluckd Studio violin site created for commercial use. Static website features a variety of different sections and pages as per client request as well as added features such as language translation, and integration with appointment scheduler for easy bookings and payments.</p>
+                          <a href="https://pluckd.studio" target="_blank" class="w-100 btn btn-primary">Check it out!</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-4">
                     <div class="card shadow">
                         <img src="./img/sa.png" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                           <h5 class="card-title display-4 text-primary text-left mt-3">Social App</h5>
-                          <p class="card-text lead text-left mt-3 mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Check it out!</a>
-                          <a href="#" class="btn btn-success">Source Code</a>
+                          <p class="card-text text-left mt-3 mb-4">Social platform that is meant to be a simplistic twitter clone.Backend of this application is built with Google Firebase and nodejs. The backend features an extensive Rest API utilized by the frontend which is built with React and Redux for app level state management.</p>
+                          <a href="https://github.com/suraj2498/socialApp" target="_blank" class="w-100 btn btn-success">Source Code</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 mt-5 mt-lg-0">
                     <div class="card shadow">
                         <img src="./img/itl.png" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                           <h5 class="card-title display-4 text-primary text-left mt-3">IT Logger</h5>
-                          <p class="card-text lead text-left mt-3 mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Check it out!</a>
-                          <a href="#" class="btn btn-success">Source Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card shadow">
-                        <img src="./img/rb.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title display-4 text-primary text-left mt-3">Recipe Book App</h5>
-                          <p class="card-text lead text-left mt-3 mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Check it out!</a>
-                          <a href="#" class="btn btn-success">Source Code</a>
+                          <p class="card-text text-left mt-3 mb-4">Front end React application built with React and Redux. The application is meant to serve as a type of IT logging system where individuals can post IT related issues and these issues can later be resolved or updated by others. Materialize CSS was used to develop the UI.</p>
+                          <a href="https://github.com/suraj2498/React-IT-Logger"  target="_blank" class="w-100 btn btn-success">Source Code</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="card-columns">
-                
-                <div id="fs-project-card" class="card shadow-lg">
-                    <div class="overlay">
-                        <div class="card-body rounded h-100">
-                            <div class="row d-flex align-items-center card-content h-100 flex-wrap">
-                                <div class="w-100 text-center">
-                                    <h2 class="text-white mb-4"> Full Scope Marketing</h2>
-                                    <p class="text-white mb-3 px-4">
-                                        Entirely rebuilt company website using HTML, CSS, Bootstrap, and Javascript. Website consists of various SVG animations. 
-
-                                    </p>
-                                    <a href="https://fullscope.marketing/index.html" target="_blank" class="btn btn-success">Check It Out</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <div id="recipe-book" class="card shadow">
-                    <div class="overlay">
-                        <div class="card-body rounded h-100">
-                            <div class="row d-flex align-items-center card-content h-100 flex-wrap">
-                                <div class="w-100 text-center">
-                                    <h2 class="text-white mb-4">Recipe Book App</h2>
-                                    <p class="text-white mb-3 px-4">
-                                        Full Stack MERN web app inspired by my family who can never remember the recipes they used. This app acts as an open community recipe book where users can add and edit recipes. On the backend I utilize node js and the express web framework along with MongoDB Atlas for storing information about each recipe. On the front end I utilized react and the built in context API for app level state management. For styled UI components I made use of the bootstrap-react library.
-                                    </p>
-                                    <a href="https://serene-chamber-16057.herokuapp.com/" target="_blank" class="btn btn-success">Check It Out</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <div id="contact-book" class="card shadow">
-                    <div class="overlay">
-                        <div class="card-body rounded h-100">
-                            <div class="row d-flex align-items-center card-content h-100 flex-wrap">
-                                <div class="w-100 text-center">
-                                    <h2 class="text-white mb-4">Contact Book App</h2>
-                                    <p class="text-white mb-3 px-4">
-                                        Full Stack MERN application that allowss users to maintain control of their contacts. On the backend I used MongoDB, Node JS, and Express to handle routing and API methods. To handle user authentication passwords entered in as plain text were encrypted using BcryptJS and users were authenticated throught he use of a JSON Web Token on teh client side. This allowed for continual access for a specific amount of time. On the front end the context API along with React.
-                                    </p>
-                                    <a href="https://desolate-ravine-75134.herokuapp.com/login" target="_blank" class="btn btn-success">Check It Out</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div id="social-app" class="card shadow">
-                    <div class="overlay">
-                        <div class="card-body rounded h-100">
-                            <div class="row d-flex align-items-center card-content h-100 flex-wrap">
-                                <div class="w-100 text-center">
-                                    <h2 class="text-white mb-4">Social App</h2>
-                                    <p class="text-white mb-3 px-4">
-                                        Full stack application built with Firebase, Node, Express and React. Firebase was used to store user accounts and authenticate users, as well as store user information adn house cloud functions and database triggers. On the front end React and MaterialUI wereused to build the UI while redux was used for app level state management.
-                                    </p>
-                                    <a href="https://socialapp-e5130.web.app/login" target="_blank" class="btn btn-success">Check It Out</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
+
 
         <h1 id="skills-head" class="display-3 section-title text-white bg-primary py-4 pl-4">Skills</h1>
         <div id="skills" class="container section-container">
